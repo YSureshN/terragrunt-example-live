@@ -18,3 +18,12 @@ Deploying all modules in a region
     - cd into the region folder (e.g. cd stage/us-east-2).
     - run terragrunt plan-all to see all the changes you're about to apply.
     - if the plan looks good, run terragrunt apply-all.
+
+
+
+Terragrunt modules will be here but this modules will call in another repo
+
+
+https://github.com/slitsevych/terragrunt-example-modules.git.   Here modules
+
+https://github.com/slitsevych/terragrunt-example-live.git.      here calling in terragurant
